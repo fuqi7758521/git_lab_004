@@ -16,5 +16,14 @@ public class Person {
 		this.age = age;
 	}
 	
+	public Person(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+	public Person(){}
+	public void show(){
+		System.out.println("name: " + this.name);
+		System.out.println("age: " + this.age);
+	}
 	
 }
